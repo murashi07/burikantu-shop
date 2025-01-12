@@ -81,10 +81,9 @@ public class CartController {
 
     @GetMapping("/cart/add/{id}")
     public String addToCart(@PathVariable Long id, Principal principal) {
-        // Add product to cart logic (assuming you have this part already)
 
-        // Save order to the database
-        orderService.saveOrder(id, principal.getName(), 1); // Assuming quantity is 1 for simplicity
+
+        orderService.saveOrder(id, principal.getName(), 1);
 
         return "redirect:/cart";
     }
