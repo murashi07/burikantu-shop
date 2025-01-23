@@ -1,4 +1,4 @@
-# Burikantu Shopping Application
+# Burikantu Shopping Web Application
 Project Overview
 
 Burikantu Shop App is an e-commerce web application. This project is designed to help users browse, manage, and purchase products in an easy and intuitive way. The app supports user authentication, product catalog management, and order placement.
